@@ -9,3 +9,7 @@
 .container > div {
     padding: 5px;
 }
+
+.controls {
+    margin: auto;
+}
