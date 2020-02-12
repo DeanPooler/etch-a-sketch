@@ -1,0 +1,11 @@
+.container {
+    display: inline-grid;
+    justify-content: center;
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+}
+
+.container > div {
+    padding: 5px;
+}
