@@ -15,3 +15,7 @@ function createGrid() {
         div.addEventListener("mouseover", mouseOver);
     }
 }
+
+function mouseOver() {
+    this.style.backgroundColor = "black";
+}
