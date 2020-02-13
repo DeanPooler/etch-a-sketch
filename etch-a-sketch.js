@@ -1,3 +1,6 @@
+const createBtn = document.querySelector('#createGrid');
+createBtn.addEventListener("click", createGrid);
+
 function createGrid() {
     const container = document.querySelector(".container");
     const userInputGridSize = parseInt(prompt("How big should the grid's sides be?"));
@@ -10,7 +13,7 @@ function createGrid() {
         const div = document.createElement("div");
 
         div.setAttribute("id", "divGrid" + i);
-        
+
         container.appendChild(div);
         div.addEventListener("mouseover", mouseOver);
     }
